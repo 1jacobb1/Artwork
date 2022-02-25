@@ -17,15 +17,12 @@ target 'Artwork' do
 
   # Pods for Artwork
 
-  pod 'Fakery'
-  pod 'IQKeyboardManagerSwift'
   pod 'Moya/ReactiveSwift', '~> 14.0'
   pod 'ReactiveCocoa', '~> 10.1'
   pod 'ReactiveSwift', '~> 6.1'
   pod 'SDWebImage', '~> 4.0'
   pod 'SnapKit', '~> 5.0.0'
   pod 'SwiftyJSON', '~> 4.0'
-  pod 'SwiftyUserDefaults'
 
   target 'ArtworkTests' do
     inherit! :search_paths
