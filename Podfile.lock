@@ -10,11 +10,6 @@ PODS:
   - ReactiveCocoa (10.3.0):
     - ReactiveSwift (~> 6.2)
   - ReactiveSwift (6.7.0)
-  - Realm (10.16.0):
-    - Realm/Headers (= 10.16.0)
-  - Realm/Headers (10.16.0)
-  - RealmSwift (10.16.0):
-    - Realm (= 10.16.0)
   - SDWebImage (4.4.8):
     - SDWebImage/Core (= 4.4.8)
   - SDWebImage/Core (4.4.8)
@@ -28,7 +23,6 @@ DEPENDENCIES:
   - Moya/ReactiveSwift (~> 14.0)
   - ReactiveCocoa (~> 10.1)
   - ReactiveSwift (~> 6.1)
-  - RealmSwift
   - SDWebImage (~> 4.0)
   - SnapKit (~> 5.0.0)
   - SwiftyJSON (~> 4.0)
@@ -42,8 +36,6 @@ SPEC REPOS:
     - Moya
     - ReactiveCocoa
     - ReactiveSwift
-    - Realm
-    - RealmSwift
     - SDWebImage
     - SnapKit
     - SwiftyJSON
@@ -56,13 +48,11 @@ SPEC CHECKSUMS:
   Moya: 5b45dacb75adb009f97fde91c204c1e565d31916
   ReactiveCocoa: 083ae559e6f588ce519cab412ea119b431c26a24
   ReactiveSwift: 208201d6ecc9734196d147aa76bc1f24b1b821fe
-  Realm: b6027801398f3743fc222f096faa85281b506e6c
-  RealmSwift: b02a3d0e4947955da960b642c98ad3a461fc4e70
   SDWebImage: 783af2c3fa36291a250030c4752ee370a9a51d13
   SnapKit: 97b92857e3df3a0c71833cce143274bf6ef8e5eb
   SwiftyJSON: 6faa0040f8b59dead0ee07436cbf76b73c08fd08
   SwiftyUserDefaults: 63f80248cf5bfb3458825d9a78f2eb7e1293a040
 
-PODFILE CHECKSUM: e67738d80e0d03376e62116b356bfe179adf11ee
+PODFILE CHECKSUM: d00c1ac608088cde1d3c440a85afe458c7047beb
 
 COCOAPODS: 1.11.2

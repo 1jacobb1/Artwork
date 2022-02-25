@@ -32,8 +32,4 @@ target 'Artwork' do
     # Pods for testing
   end
 
-  target 'ArtworkUITests' do
-    # Pods for testing
-  end
-
 end
